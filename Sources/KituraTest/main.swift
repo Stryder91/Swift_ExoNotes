@@ -13,14 +13,14 @@ router.all(middleware: [BodyParser(), StaticFileServer(path: "./Public")])
 router.add(templateEngine: StencilTemplateEngine())
 
 let classe : [String : [Int] ] = [
-    "Matheus" : [16,14,20,14,12],
-    "Lionel" : [16,14,20,14,12],
-    "Matt" : [16,14,20,14,12],
-    "Lili": [16,14,20,14,12],
-    "Bob" : [16,14,20,14,12],
-    "Xavier" : [16,14,20,14,12],
-    "Bip" : [16,14,20,14,12],
-    "Bobi" : [16,14,20,14,12],
+    "Matheus" : [15,7,14,6,12],
+    "Lionel" : [16,14,10,11,12],
+    "Matt" : [8,14,19,14,10],
+    "Lili": [6,10,17,12,12],
+    "Bob" : [11,14,10,13,8],
+    "Xavier" : [4,10,11,14,6],
+    "Bip" : [5,14,14,6,18],
+    "Bobi" : [6,12,9,11,13],
     "Bernard" : [16,14,20,14,12],
     "Matthieu" : [1,18,12,17,5,19],
 ]
