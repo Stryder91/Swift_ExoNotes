@@ -1,0 +1,18 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <link href="/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <section>
+            <h1> Les élèves de la fameuse classe </h1>
+            <ul>
+            {% for eleve in class %}
+            <a href="/eleves/{{eleve}}">
+                <li>{{ eleve }}</li>
+            </a>
+            {% endfor %}
+            </ul>
+        </section>
+    </body>
+</html>

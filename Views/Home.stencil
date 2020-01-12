@@ -1,0 +1,16 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <link href="/style.css" rel="stylesheet">
+    <link href="/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <section>
+            <h1 class="text-center"> Bonjour </h1>
+            <form action="/eleves" method="post">
+                <input name="name" placeholder="Choisis un prénom" />
+                <button type="submit" class="btn btn-success">Encode</button>
+            </form>
+        </section>
+    </body>
+</html>
