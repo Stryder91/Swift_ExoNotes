@@ -6,7 +6,7 @@
     </head>
     <body>
         <section>
-            <h1 class="text-center"> Bonjour </h1>
+            <h1 class="text-center"> Bonjour et {{greeting}}</h1>
             <form action="/eleves" method="post">
                 <input name="name" placeholder="Choisis un prénom" />
                 <button type="submit" class="btn btn-success">Encode</button>
