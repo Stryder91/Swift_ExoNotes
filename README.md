@@ -1,3 +1,3 @@
 # KituraTest
 
-A description of this package.
+Lionel TRAN - Mathieu BOUVET 2ADEV
